@@ -47,6 +47,7 @@ _Version 2 prototype renders showing both top and bottom views of the solar cook
 
 - [**kicad-testing-station**](https://github.com/solar-cooker-UHasselt/kicad-testing-station): KiCad PCB for the solar cooker testing station: cooking temperature, weather and solar irradiance.
 - [**arduino-code**](https://github.com/solar-cooker-UHasselt/arduino-code): PlatformIO firmware for the testing station: reads the sensors, logs to microSD, shows readings on an LCD.
+- [**kicad-ci**](https://github.com/solar-cooker-UHasselt/kicad-ci): Shared KiBot CI for the KiCad board repos: ERC, DRC, job summary and reports.
 
 ### Prototypes Used in the Main Project
 
