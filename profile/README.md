@@ -45,19 +45,19 @@ _Version 2 prototype renders showing both top and bottom views of the solar cook
 
 ### Main Repositories
 
-- [**kicad-testing-station**](https://github.com/solar-cooker-UHasselt/kicad-testing-station): Complete testing station for measuring solar cooker performance.
-- [**arduino-code**](https://github.com/solar-cooker-UHasselt/arduino-code): Arduino code for controlling and reading all components of the solar cooker testing station.
+- [**kicad-testing-station**](https://github.com/solar-cooker-UHasselt/kicad-testing-station): KiCad PCB for the solar cooker testing station: cooking temperature, weather and solar irradiance.
+- [**arduino-code**](https://github.com/solar-cooker-UHasselt/arduino-code): PlatformIO firmware for the testing station: reads the sensors, logs to microSD, shows readings on an LCD.
 
 ### Prototypes Used in the Main Project
 
-- [**kicad-adafruit-bme680**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-bme680): Environmental sensor breakout featuring temperature, humidity, barometric pressure, and VOC gas sensing.  
-- [**kicad-adafruit-ds3231**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231): Precision real-time clock (RTC) breakout.  
-- [**kicad-adafruit-max31865**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-max31865): Platinum RTD-to-digital converter breakout for precise temperature measurements.  
-- [**kicad-adafruit-microsd**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-microsd): MicroSD breakout for data logging and removable storage.
+- [**kicad-adafruit-bme680**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-bme680): KiCad port of the Adafruit BME680 breakout: temperature, humidity, pressure and gas sensor.
+- [**kicad-adafruit-ds3231**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231): KiCad port of the Adafruit DS3231 breakout: precision real-time clock.
+- [**kicad-adafruit-max31865**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-max31865): KiCad port of the Adafruit MAX31865 breakout: PT100 RTD temperature amplifier.
+- [**kicad-adafruit-microsd**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-microsd): KiCad port of the Adafruit microSD breakout board+: SPI card slot for data logging.
 
 ### Old or Supporting Repositories
 
-- [**kicad-arduino-uno-r4-wifi**](https://github.com/solar-cooker-UHasselt/kicad-arduino-uno-r4-wifi): In-progress custom Arduino UNO R4 WiFi PCB to replace shield-based designs.  
-- [**kicad-testing-station-old**](https://github.com/solar-cooker-UHasselt/kicad-testing-station-old): Legacy version of the testing station PCB.  
-- [**python-bom-script**](https://github.com/solar-cooker-UHasselt/python-bom-script): Script to generate bills of materials and fetch real-time component pricing from Mouser and DigiKey.  
-- [**shiny-data-analysis**](https://github.com/solar-cooker-UHasselt/shiny-data-analysis): R Shiny dashboard for visualizing experimental data from the solar cooker project.
+- [**kicad-arduino-uno-r4-wifi**](https://github.com/solar-cooker-UHasselt/kicad-arduino-uno-r4-wifi): KiCad port of the Arduino UNO R4 WiFi, imported from Altium. Work in progress.
+- [**kicad-testing-station-old**](https://github.com/solar-cooker-UHasselt/kicad-testing-station-old): Previous version of the testing station PCB, kept for reference.
+- [**python-bom-script**](https://github.com/solar-cooker-UHasselt/python-bom-script): Adds Mouser and DigiKey price and stock to a KiCad BOM CSV.
+- [**shiny-data-analysis**](https://github.com/solar-cooker-UHasselt/shiny-data-analysis): R Shiny app that analyses testing station measurements per ASAE S580.1.
