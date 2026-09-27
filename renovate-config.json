@@ -1,0 +1,34 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate settings for every solar-cooker-UHasselt repo, extended by each repo's renovate.json",
+  "extends": ["config:recommended", "schedule:monthly"],
+  "semanticCommits": "enabled",
+  "packageRules": [
+    {
+      "description": "One PR for the GitHub-owned actions, they often move together",
+      "matchPackageNames": ["actions/*"],
+      "groupName": "GitHub Actions"
+    },
+    {
+      "description": "One PR for the lint tools, they only affect the checks",
+      "matchPackageNames": ["ruff", "prettier", "rhysd/actionlint"],
+      "groupName": "lint tools"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "ruff, pinned in run: lines as pipx run ruff==<version>",
+      "managerFilePatterns": ["/^\\.github/workflows/[^/]+\\.ya?ml$/"],
+      "matchStrings": ["pipx run (?<depName>ruff)==(?<currentValue>[^\\s]+)"],
+      "datasourceTemplate": "pypi"
+    },
+    {
+      "customType": "regex",
+      "description": "Prettier, pinned in run: lines as npx --yes prettier@<version>",
+      "managerFilePatterns": ["/^\\.github/workflows/[^/]+\\.ya?ml$/"],
+      "matchStrings": ["npx --yes (?<depName>prettier)@(?<currentValue>[^\\s]+)"],
+      "datasourceTemplate": "npm"
+    }
+  ]
+}
