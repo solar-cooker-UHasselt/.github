@@ -1,7 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Renovate settings for every solar-cooker-UHasselt repo, extended by each repo's renovate.json",
-  "extends": ["config:recommended", "schedule:monthly"],
+  "extends": [
+    "config:recommended",
+    ":configMigration",
+    "abandonments:recommended",
+    "schedule:weekends"
+  ],
   "semanticCommits": "enabled",
   "packageRules": [
     {
