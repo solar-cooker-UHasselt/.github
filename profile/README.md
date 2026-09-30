@@ -12,6 +12,8 @@ This organization hosts the **source code and PCB designs for the solar cooker t
 
 Supporting repositories for tools, experiments, and related hardware designs are also included, making this a central hub for the open-source development and testing of solar cooking technologies.
 
+**[Board overview](https://solar-cooker-uhasselt.github.io/)**: every board with its 3D render, linking to its board page with the schematic, board layers and interactive BOM.
+
 ## Acknowledgments
 
 This work would not have been possible without the contributions of **Ruben Godde, Kato Warson, and Jonas Meijerink**.
@@ -47,7 +49,9 @@ _Version 2 prototype renders showing both top and bottom views of the solar cook
 
 - [**kicad-testing-station**](https://github.com/solar-cooker-UHasselt/kicad-testing-station): KiCad PCB for the solar cooker testing station: cooking temperature, weather and solar irradiance.
 - [**arduino-code**](https://github.com/solar-cooker-UHasselt/arduino-code): PlatformIO firmware for the testing station: reads the sensors, logs to microSD, shows readings on an LCD.
-- [**kicad-ci**](https://github.com/solar-cooker-UHasselt/kicad-ci): Shared KiBot CI for the KiCad board repos: ERC, DRC, job summary and reports.
+- [**kicad-ci**](https://github.com/solar-cooker-UHasselt/kicad-ci): Shared KiBot CI for the KiCad board repos: ERC, DRC, board page, BOM and draft releases.
+- [**kicad-common**](https://github.com/solar-cooker-UHasselt/kicad-common): Shared KiCad library for the solar cooker boards: symbols, footprints and 3D models.
+- [**solar-cooker-uhasselt.github.io**](https://github.com/solar-cooker-UHasselt/solar-cooker-uhasselt.github.io): The [board overview](https://solar-cooker-uhasselt.github.io/) page.
 
 ### Prototypes Used in the Main Project
 
@@ -60,5 +64,4 @@ _Version 2 prototype renders showing both top and bottom views of the solar cook
 
 - [**kicad-arduino-uno-r4-wifi**](https://github.com/solar-cooker-UHasselt/kicad-arduino-uno-r4-wifi): KiCad port of the Arduino UNO R4 WiFi, imported from Altium. Work in progress.
 - [**kicad-testing-station-old**](https://github.com/solar-cooker-UHasselt/kicad-testing-station-old): Previous version of the testing station PCB, kept for reference.
-- [**python-bom-script**](https://github.com/solar-cooker-UHasselt/python-bom-script): Adds Mouser and DigiKey price and stock to a KiCad BOM CSV.
 - [**shiny-data-analysis**](https://github.com/solar-cooker-UHasselt/shiny-data-analysis): R Shiny app that analyses testing station measurements per ASAE S580.1.
