@@ -56,7 +56,7 @@ has the schematic, board layers and interactive BOM._
 - [**kicad-common**](https://github.com/solar-cooker-UHasselt/kicad-common): Shared KiCad library for the solar cooker boards: symbols, footprints and 3D models.
 - [**solar-cooker-uhasselt.github.io**](https://github.com/solar-cooker-UHasselt/solar-cooker-uhasselt.github.io): The [board overview](https://solar-cooker-uhasselt.github.io/) page.
 
-### Prototypes Used in the Main Project
+### Breakout Boards on the Testing Station
 
 - [**kicad-adafruit-bme680**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-bme680): KiCad port of the Adafruit BME680 breakout: temperature, humidity, pressure and gas sensor.
 - [**kicad-adafruit-ds3231**](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231): KiCad port of the Adafruit DS3231 breakout: precision real-time clock.
