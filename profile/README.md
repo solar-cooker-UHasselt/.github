@@ -31,17 +31,20 @@ _Early prototype of the solar cooker testing station (Version 1), used for initi
 <table>
   <tr>
     <td align="center">
-      <img alt="Testing Station V2 Top Render" src="assets/testing_station_v2_render_edit.png" width="600" /><br>
-      Top render with Arduino visible
+      <img alt="Testing Station V2 Top Render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-top.png" width="600" /><br>
+      Top
     </td>
     <td align="center">
-      <img alt="Testing Station V2 Bottom Render" src="assets/testing_station_v2_render_back_no_arduino_edit.png" width="600" /><br>
-      Bottom render without Arduino for clarity
+      <img alt="Testing Station V2 Bottom Render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-bottom.png" width="600" /><br>
+      Bottom
     </td>
   </tr>
 </table>
 
-_Version 2 prototype renders showing both top and bottom views of the solar cooker testing station._
+_Version 2 of the testing station, a shield for the Arduino UNO R4 WiFi. CI renders these
+from [kicad-testing-station](https://github.com/solar-cooker-UHasselt/kicad-testing-station)
+on every change, the [board page](https://solar-cooker-uhasselt.github.io/kicad-testing-station/)
+has the schematic, board layers and interactive BOM._
 
 ## Repository Overview
 
