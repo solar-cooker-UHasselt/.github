@@ -18,6 +18,16 @@ Supporting repositories for tools, experiments, and related hardware designs are
 
 This work would not have been possible without the contributions of **Ruben Godde, Kato Warson, and Jonas Meijerink**.
 
+## Contributing
+
+The project is maintained by **Lowie Van Vyve** (head maintainer), reachable at
+[solar-cooker@lowie.xyz](mailto:solar-cooker@lowie.xyz).
+
+- To work on the project, ask to be added to the organization. Members join a team for
+  the repos they work on, such as electronics or data.
+- Changes reach `main` through a pull request, approved by a maintainer. Each
+  repository's README describes the steps under Contributing.
+
 ## Version 1 Testing Station
 
 <p float="left">
