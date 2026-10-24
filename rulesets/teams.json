@@ -1,0 +1,60 @@
+{
+  "org": {
+    "default_repository_permission": "none",
+    "members_can_create_repositories": false
+  },
+  "teams": [
+    {
+      "description": "Approve pull requests to main in every public repo, through its CODEOWNERS",
+      "name": "maintainers",
+      "privacy": "closed",
+      "repos": {
+        ".github": "write",
+        "arduino-code": "write",
+        "kicad-adafruit-bme680": "write",
+        "kicad-adafruit-ds3231": "write",
+        "kicad-adafruit-max31865": "write",
+        "kicad-adafruit-microsd": "write",
+        "kicad-arduino-uno-r4-wifi": "write",
+        "kicad-ci": "write",
+        "kicad-common": "write",
+        "kicad-testing-station": "write",
+        "kicad-testing-station-old": "write",
+        "shiny-data-analysis": "write",
+        "solar-cooker-uhasselt.github.io": "write"
+      }
+    },
+    {
+      "description": "Work on the boards, kicad-common and arduino-code through pull requests",
+      "name": "electronics",
+      "privacy": "closed",
+      "repos": {
+        "arduino-code": "write",
+        "kicad-adafruit-bme680": "write",
+        "kicad-adafruit-ds3231": "write",
+        "kicad-adafruit-max31865": "write",
+        "kicad-adafruit-microsd": "write",
+        "kicad-arduino-uno-r4-wifi": "write",
+        "kicad-common": "write",
+        "kicad-testing-station": "write",
+        "kicad-testing-station-old": "write"
+      }
+    },
+    {
+      "description": "Work on shiny-data-analysis through pull requests",
+      "name": "data",
+      "privacy": "closed",
+      "repos": {
+        "shiny-data-analysis": "write"
+      }
+    },
+    {
+      "description": "Read access to the private order log and its invoices",
+      "name": "finance",
+      "privacy": "closed",
+      "repos": {
+        "orders": "read"
+      }
+    }
+  ]
+}
