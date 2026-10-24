@@ -12,8 +12,6 @@ This organization hosts the **source code and PCB designs for the solar cooker t
 
 Supporting repositories for tools, experiments, and related hardware designs are also included, making this a central hub for the open-source development and testing of solar cooking technologies.
 
-**[Board overview](https://solar-cooker-uhasselt.github.io/)**: every board with its 3D render, linking to its board page with the schematic, board layers and interactive BOM.
-
 ## Acknowledgments
 
 This work would not have been possible without the contributions of **Ruben Godde, Kato Warson, and Jonas Meijerink**.
@@ -57,6 +55,9 @@ on every change, the [board page](https://solar-cooker-uhasselt.github.io/kicad-
 has the schematic, board layers and interactive BOM._
 
 ## Repository Overview
+
+Every board, with its 3D render and a link to its board page, is on the
+[board overview](https://solar-cooker-uhasselt.github.io/).
 
 ### Main Repositories
 
