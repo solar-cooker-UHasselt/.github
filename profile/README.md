@@ -26,30 +26,32 @@ The project is maintained by **Lowie Van Vyve** (head maintainer), reachable at
 - Changes reach `main` through a pull request, approved by a maintainer. Each
   repository's README describes the steps under Contributing.
 
-## Version 1 Testing Station
+## Testing Station v1.0 to v2.2
 
 <p float="left">
-  <img alt="Testing Station V1" src="assets/testing_station_v1.jpg" width="400" />
+  <img alt="Testing station v1.0 to v2.2, a shield for the Arduino Mega 2560" src="assets/testing_station_v1.jpg" width="400" />
 </p>
 
-_Early prototype of the solar cooker testing station (Version 1), used for initial field experiments and validation of sensors and data acquisition._
+_The first testing station, a shield for the Arduino Mega 2560, ordered as v1.0 to v2.2
+([kicad-testing-station-old](https://github.com/solar-cooker-UHasselt/kicad-testing-station-old)).
+Used for the first field experiments and to validate the sensors and data acquisition._
 
-## Version 2 Testing Station
+## Testing Station v3.1
 
 <table>
   <tr>
     <td align="center">
-      <img alt="Testing Station V2 Top Render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-top.png" width="600" /><br>
+      <img alt="Testing station v3.1, top render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-top.png" width="600" /><br>
       Top
     </td>
     <td align="center">
-      <img alt="Testing Station V2 Bottom Render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-bottom.png" width="600" /><br>
+      <img alt="Testing station v3.1, bottom render" src="https://solar-cooker-uhasselt.github.io/kicad-testing-station/testing-station-render-bottom.png" width="600" /><br>
       Bottom
     </td>
   </tr>
 </table>
 
-_Version 2 of the testing station, a shield for the Arduino UNO R4 WiFi. CI renders these
+_The current testing station, a shield for the Arduino UNO R4 WiFi, last ordered as v3.1. CI renders these
 from [kicad-testing-station](https://github.com/solar-cooker-UHasselt/kicad-testing-station)
 on every change, the [board page](https://solar-cooker-uhasselt.github.io/kicad-testing-station/)
 has the schematic, board layers and interactive BOM._
